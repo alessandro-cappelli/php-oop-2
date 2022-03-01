@@ -17,7 +17,8 @@ $movie = [
 $programmazione = [
     new programmazione($movie[0], "17:30", $sale[0]),
     new programmazione($movie[1], "18:00", $sale[1]),
-    new programmazione($movie[1], "20:30", $sale[1]),
-    new programmazione($movie[0], "18:30", $sale[0]),
+    new programmazione($movie[2], "20:30", $sale[1]),
+    new programmazione($movie[3], "18:30", $sale[0]),
 ];
 
+var_dump($programmazione);
