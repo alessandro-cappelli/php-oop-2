@@ -11,4 +11,7 @@ class Sala2
         $this->effect = $_effect;
     }
 
+    public function getNumPosti(){
+        return $this->numPosti;
+    }
 };

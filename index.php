@@ -26,6 +26,15 @@ $movie = [
 
 var_dump($movie);
 
+
 // 1)
 var_dump($sale);
 
+
+// 2)
+$totale=0;
+foreach($sale as $sale){
+    $totale=$totale+$sale->getNumPosti();
+}
+
+var_dump($totale);

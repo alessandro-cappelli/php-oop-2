@@ -9,4 +9,7 @@ class Sala1
         $this->numPosti = $_numPosti;
     }
 
+    public function getNumPosti(){
+        return $this->numPosti;
+    }
 };
